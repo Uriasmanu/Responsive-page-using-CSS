@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.backgrund{
+    position: absolute;
+    background: #456635;
+    width: 75%;
+    height: 41em;
+    top: 15%;
+    left: 13%;
+    box-shadow: 11px 15px 13px -3px rgb(0 0 0 / 35%);
+
+}
+
+.card{
+
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    width: 272px;
+    height: 458px;
+    background: #fff;
+    border-radius: 5%;
+    box-shadow: 11px 15px 13px -3px rgb(0 0 0 / 35%);
+
+}
+
+.cod img{
+
+    width: 15em;
+    height: 15em;
+    border-radius: 5%;
+    position: absolute;
+    top: 14px;
+    left: 17px;
+}
+
+.text{
+
+    align-content: center;
+    position: absolute;
+    top: 56%;
+    margin-top: 12px;
+    margin-left: 22px;
+    text-align: center;
+    font-size: 16px;
+    width: 84%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2{
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+    color:#706e6ed9;
+}
+.attribution{
+
+    position: absolute;
+    top: 95%;
+    left: 37%;
+    color: #fff;
+    font-size: 12px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 915px) {
+
+    .backgrund{
+
+        position: absolute;
+        background: #456635;
+        width: 400px;
+        height: 852px;
+        top: 25px;
+        left: 4px;
+    
+    }
+    .card{
+
+        position: absolute;
+        top: 12%;
+        left: 19%;
+        width: 250px;
+        height: 420px;
+        background: #fff;
+        border-radius: 21px;
+        box-shadow: 11px 15px 13px -3px rgb(0 0 0 / 35%);
+
+    }
+
+    .cod img{
+
+        width: 215px;
+        height: 215px;
+        border-radius: 5%;
+        position: absolute;
+        top: 14px;
+        left: 17px;
+    }
+    .text{
+
+        align-content: center;
+        position: absolute;
+        top: 56%;
+        margin-top: 0px;
+        margin-left: 22px;
+        text-align: center;
+        font-size: 16px;
+        width: 84%;
+        font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2{
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+    color:#706e6ed9;
+}
+.attribution{
+
+    position: absolute;
+    top: 95%;
+    left: 12%;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+}
+
